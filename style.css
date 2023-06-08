@@ -6,6 +6,13 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body{
+  background-color: black;
+}
+#italic{
+  font-style: italic;
+  font-size: 17px;
+}
 .search {
   height: 40vh;
   display: flex;
@@ -42,6 +49,10 @@
 .search p {
   margin-top: 8px;
   font-size: 1.5rem;
+}
+#search-bar{
+  background-color: white;
+  text-align: left;
 }
 .search .search-box {
   height: 55px;
